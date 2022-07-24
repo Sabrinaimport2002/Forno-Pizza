@@ -1,0 +1,4 @@
+.pesquisar__input{
+    width: 0;
+    transition: width .5s;
+}

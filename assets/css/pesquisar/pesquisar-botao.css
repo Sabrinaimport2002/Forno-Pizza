@@ -1,0 +1,7 @@
+.pesquisar__botao{
+    width: 25px;
+    height: 25px;
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+}

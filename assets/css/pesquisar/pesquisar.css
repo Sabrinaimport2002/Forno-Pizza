@@ -1,0 +1,22 @@
+.pesquisar{
+    color: #f9f9f9;
+    background: #bfbfbf;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+}
+
+.pesquisar :is(input, button){
+    color: inherit;
+    border: none;
+    background: transparent;
+    outline: none;
+}
+
+.pesquisar:focus-within input{
+    width: 200px;
+}
+
+::placeholder{
+    color: inherit;
+}

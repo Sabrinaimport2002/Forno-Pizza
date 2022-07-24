@@ -39,6 +39,10 @@
     <link rel="stylesheet" href="./assets/css/localizacao/localizacao.css" />
     <link rel="stylesheet" href="./assets/css/localizacao-contato.css">
     <link rel="stylesheet" href="./assets/css/rodape.css">
+    <link rel="stylesheet" href="./assets/css/pesquisar/pesquisar.css">
+    <link rel="stylesheet" href="./assets/css/pesquisar/pesquisar-botao.css">
+    <link rel="stylesheet" href="./assets/css/pesquisar/pesquisar-input.css">
+    
     <link
       rel="stylesheet"
       href="./assets/css/localizacao/localizacao-titulo.css"
@@ -51,19 +55,22 @@
       <div class="background">
         <header class="cabecalho">
           <h1 class="cabecalho__titulo">Forno&Pizza</h1>
+          <form class="pesquisar">
+            <input type="text" placeholder="Pesquisar" class="pesquisar__input"/>
+            <button type="button" class="pesquisar__botao">
+                <img src="./assets/img/icon-search.png">
+            </button>
+          </form>
           <nav class="menu">
             <ul class="menu__lista">
               <li class="menu__item">
-                <a class="menu__link" href="#">Home</a>
+                <a class="menu__link" href="#home">Home</a>
               </li>
               <li class="menu__item">
-                <a class="menu__link" href="#">Pizzas</a>
+                <a class="menu__link" href="#pizzas">Pizzas</a>
               </li>
               <li class="menu__item">
-                <a class="menu__link" href="#">Sobre Nós</a>
-              </li>
-              <li class="menu__item">
-                <a class="menu__link" href="#">Contato</a>
+                <a class="menu__link" href="#sobre">Sobre Nós</a>
               </li>
             </ul>
           </nav>
@@ -78,7 +85,7 @@
         </main>
       </div>
     </div>
-    <section class="pizzas">
+    <section class="pizzas" id="pizzas">
       <h1 class="pizzas__titulo">As melhores pizzas</h1>
       <div class="cards">
         <article class="card">
@@ -180,7 +187,7 @@
       </div>
     </section>
 
-    <section class="sobre">
+    <section class="sobre" id="sobre">
       <div class="sobre__imagem">
         <h2 class="sobre__titulo">Sobre nós</h2>
         <p class="sobre__descricao">
@@ -216,8 +223,7 @@
       </div>
     </section>
 
-    <footer class="rodape">
-        <p>&copy Forno&Pizza</p>
+    <footer class="rodape">&copy Forno&Pizza</p>
       </footer>
   </body>
   
