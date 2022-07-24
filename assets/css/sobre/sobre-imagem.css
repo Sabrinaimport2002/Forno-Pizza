@@ -1,0 +1,5 @@
+.sobre__imagem{
+    background: url('../../img/pizza-background-3.jpg') no-repeat center / cover;
+    opacity: 0.7;
+    width: 100%;
+}

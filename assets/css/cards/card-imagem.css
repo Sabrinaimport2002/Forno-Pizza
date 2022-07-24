@@ -1,0 +1,6 @@
+.card__imagem{
+    border-radius: 10px 10px 0 0;
+    background: url('../../img/pizza.jpg') no-repeat center / cover;
+    height: 100px;
+    width: 200px;
+}

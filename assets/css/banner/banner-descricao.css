@@ -1,0 +1,9 @@
+.banner__descricao{
+    font-family: 'Jacques Francois', serif;
+    color: #f9f9f9;
+    font-size:35px;
+}
+
+.banner__descricao:last-child{
+    font-weight: bold;
+}

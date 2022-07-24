@@ -1,0 +1,10 @@
+.rodape{
+    background: #211e1e;
+    text-align: center;
+    font-family: 'Jacques Francois', serif;
+    color: #f9f9f9;
+    font-size: 20px;
+    height: 50px;
+    padding-top: 33px;
+    content: "©";
+}
