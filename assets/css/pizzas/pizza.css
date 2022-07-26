@@ -1,0 +1,14 @@
+.pizza{
+    height: 13rem;
+    width: 12rem;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+    margin: 1rem;
+}
+
+
+.pizza:hover .detalhes{
+    opacity: 1;
+    height: 100%;
+}

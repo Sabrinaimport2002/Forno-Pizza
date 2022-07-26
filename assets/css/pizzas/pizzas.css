@@ -1,4 +1,7 @@
 .pizzas{
-    background: #211e1e;
-    padding: 0 100px 30px 100px;
+    display: grid;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 100px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }

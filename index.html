@@ -24,14 +24,19 @@
     <link rel="stylesheet" href="./assets/css/banner/banner-imagem.css" />
     <link rel="stylesheet" href="./assets/css/banner/banner-descricao.css" />
     <link rel="stylesheet" href="./assets/css/banner/banner-titulo.css" />
+    <link rel="stylesheet" href="./assets/css/cardapio/cardapio.css">
+    <link rel="stylesheet" href="./assets/css/cardapio/cardapio-titulo.css">
     <link rel="stylesheet" href="./assets/css/pizzas/pizzas.css" />
-    <link rel="stylesheet" href="./assets/css/pizzas/pizzas__titulo.css" />
-    <link rel="stylesheet" href="./assets/css/cards/cards.css" />
-    <link rel="stylesheet" href="./assets/css/cards/card.css" />
-    <link rel="stylesheet" href="./assets/css/cards/card-descricao.css" />
-    <link rel="stylesheet" href="./assets/css/cards/card-imagem.css" />
-    <link rel="stylesheet" href="./assets/css/cards/card-titulo.css" />
-    <link rel="stylesheet" href="./assets/css/cards/card-botao.css" />
+    <link rel="stylesheet" href="./assets/css/pizzas/pizza.css">
+    <link rel="stylesheet" href="./assets/css/pizzas/pizza-detalhes.css">
+    <link rel="stylesheet" href="./assets/css/pizzas/pizza-imagem.css">
+    <link rel="stylesheet" href="./assets/css/pizzas/pizza-detalhes-titulo.css">
+    <link rel="stylesheet" href="./assets/css/pizzas/pizza-detalhes-descricao.css">
+    <link rel="stylesheet" href="./assets/css/detalhes/detalhes.css">
+    <link rel="stylesheet" href="./assets/css/detalhes/detalhes-titulo.css">
+    <link rel="stylesheet" href="./assets/css/detalhes/detalhes-descricao.css">
+    <link rel="stylesheet" href="./assets/css/detalhes/detalhes-botao.css">
+    <link rel="stylesheet" href="./assets/css/detalhes/detalhes-botao-imagem.css">
     <link rel="stylesheet" href="./assets/css/sobre/sobre.css" />
     <link rel="stylesheet" href="./assets/css/sobre/sobre-descricao.css" />
     <link rel="stylesheet" href="./assets/css/sobre/sobre-imagem.css" />
@@ -42,7 +47,8 @@
     <link rel="stylesheet" href="./assets/css/pesquisar/pesquisar.css">
     <link rel="stylesheet" href="./assets/css/pesquisar/pesquisar-botao.css">
     <link rel="stylesheet" href="./assets/css/pesquisar/pesquisar-input.css">
-    
+    <link rel="stylesheet" href="./assets/css/pesquisar/pesquisar-imagem.css">
+    <link rel="stylesheet" href="./assets/css/redes-sociais.css">
     <link
       rel="stylesheet"
       href="./assets/css/localizacao/localizacao-titulo.css"
@@ -50,6 +56,7 @@
     <link rel="stylesheet" href="./assets/css/contato/contato.css" />
     <link rel="stylesheet" href="./assets/css/contato/contato-titulo.css" />
   </head>
+
   <body>
     <div class="container">
       <div class="background">
@@ -58,7 +65,7 @@
           <form class="pesquisar">
             <input type="text" placeholder="Pesquisar" class="pesquisar__input"/>
             <button type="button" class="pesquisar__botao">
-                <img src="./assets/img/icon-search.png">
+                <img src="./assets/img/icon-search.png" class="pesquisar__imagem">
             </button>
           </form>
           <nav class="menu">
@@ -85,104 +92,99 @@
         </main>
       </div>
     </div>
-    <section class="pizzas" id="pizzas">
-      <h1 class="pizzas__titulo">As melhores pizzas</h1>
-      <div class="cards">
-        <article class="card">
-          <div class="card__imagem"></div>
-          <h3 class="card__titulo">Pizza 1</h3>
-          <p class="card__descricao">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          </p>
-          <button class="card__botao">Compre R$40,00</button>
+    <section class="cardapio" id="pizzas">
+      <h1 class="cardapio__titulo">As melhores pizzas</h1>
+
+      <div class="pizzas">
+        <article class="pizza">
+          <img src="./assets/img/pizza.jpg" alt="" class="pizza__imagem">
+          <div class="detalhes">
+            <h4 class="detalhes__titulo">Pizza</h4>
+            <p class="detalhes__descricao">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </p>
+            <button class="detalhes__botao">
+              <img src="./assets/img/carrinho.png" alt="" class="detalhes__botao__imagem">
+            </button>
+          </div>
         </article>
-        <article class="card">
-          <div class="card__imagem"></div>
-          <h3 class="card__titulo">Pizza 2</h3>
-          <p class="card__descricao">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          </p>
-          <button class="card__botao">Compre R$40,00</button>
+
+        <article class="pizza">
+          <img src="./assets/img/pizza.jpg" alt="" class="pizza__imagem">
+          <div class="detalhes">
+            <h4 class="detalhes__titulo">Pizza</h4>
+            <p class="detalhes__descricao">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </p>
+            <button class="detalhes__botao">
+              <img src="./assets/img/carrinho.png" alt="" class="detalhes__botao__imagem">
+            </button>
+          </div>
         </article>
-        <article class="card">
-          <div class="card__imagem"></div>
-          <h3 class="card__titulo">Pizza 3</h3>
-          <p class="card__descricao">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          </p>
-          <button class="card__botao">Compre R$40,00</button>
+
+        <article class="pizza">
+          <img src="./assets/img/pizza.jpg" alt="" class="pizza__imagem">
+          <div class="detalhes">
+            <h4 class="detalhes__titulo">Pizza</h4>
+            <p class="detalhes__descricao">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </p>
+            <button class="detalhes__botao">
+              <img src="./assets/img/carrinho.png" alt="" class="detalhes__botao__imagem">
+            </button>
+          </div>
         </article>
-        <article class="card">
-          <div class="card__imagem"></div>
-          <h3 class="card__titulo">Pizza 4</h3>
-          <p class="card__descricao">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          </p>
-          <button class="card__botao">Compre R$40,00</button>
+
+        <article class="pizza">
+          <img src="./assets/img/pizza.jpg" alt="" class="pizza__imagem">
+          <div class="detalhes">
+            <h4 class="detalhes__titulo">Pizza</h4>
+            <p class="detalhes__descricao">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </p>
+            <button class="detalhes__botao">
+              <img src="./assets/img/carrinho.png" alt="" class="detalhes__botao__imagem">
+            </button>
+          </div>
         </article>
-        <article class="card">
-          <div class="card__imagem"></div>
-          <h3 class="card__titulo">Pizza 5</h3>
-          <p class="card__descricao">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          </p>
-          <button class="card__botao">Compre R$40,00</button>
+
+        <article class="pizza">
+          <img src="./assets/img/pizza.jpg" alt="" class="pizza__imagem">
+          <div class="detalhes">
+            <h4 class="detalhes__titulo">Pizza</h4>
+            <p class="detalhes__descricao">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </p>
+            <button class="detalhes__botao">
+              <img src="./assets/img/carrinho.png" alt="" class="detalhes__botao__imagem">
+            </button>
+          </div>
         </article>
-        <article class="card">
-          <div class="card__imagem"></div>
-          <h3 class="card__titulo">Pizza 6</h3>
-          <p class="card__descricao">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          </p>
-          <button class="card__botao">Compre R$40,00</button>
+
+        <article class="pizza">
+          <img src="./assets/img/pizza.jpg" alt="" class="pizza__imagem">
+          <div class="detalhes">
+            <h4 class="detalhes__titulo">Pizza</h4>
+            <p class="detalhes__descricao">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </p>
+            <button class="detalhes__botao">
+              <img src="./assets/img/carrinho.png" alt="" class="detalhes__botao__imagem">
+            </button>
+          </div>
         </article>
-        <article class="card">
-          <div class="card__imagem"></div>
-          <h3 class="card__titulo">Pizza 7</h3>
-          <p class="card__descricao">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          </p>
-          <button class="card__botao">Compre R$40,00</button>
-        </article>
-        <article class="card">
-          <div class="card__imagem"></div>
-          <h3 class="card__titulo">Pizza 8</h3>
-          <p class="card__descricao">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          </p>
-          <button class="card__botao">Compre R$40,00</button>
-        </article>
-        <article class="card">
-          <div class="card__imagem"></div>
-          <h3 class="card__titulo">Pizza 9</h3>
-          <p class="card__descricao">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          </p>
-          <button class="card__botao">Compre R$40,00</button>
-        </article>
-        <article class="card">
-          <div class="card__imagem"></div>
-          <h3 class="card__titulo">Pizza 10</h3>
-          <p class="card__descricao">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          </p>
-          <button class="card__botao">Compre R$40,00</button>
-        </article>
-        <article class="card">
-          <div class="card__imagem"></div>
-          <h3 class="card__titulo">Pizza 11</h3>
-          <p class="card__descricao">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          </p>
-          <button class="card__botao">Compre R$40,00</button>
-        </article>
-        <article class="card">
-          <div class="card__imagem"></div>
-          <h3 class="card__titulo">Pizza 12</h3>
-          <p class="card__descricao">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          </p>
-          <button class="card__botao">Compre R$40,00</button>
+
+        <article class="pizza">
+          <img src="./assets/img/pizza.jpg" alt="" class="pizza__imagem">
+          <div class="detalhes">
+            <h4 class="detalhes__titulo">Pizza</h4>
+            <p class="detalhes__descricao">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </p>
+            <button class="detalhes__botao">
+              <img src="./assets/img/carrinho.png" alt="" class="detalhes__botao__imagem">
+            </button>
+          </div>
         </article>
       </div>
     </section>
@@ -218,6 +220,12 @@
               Paça já seu pedido e nos <br />
               siga nas redes sociais
             </h3>
+            <img>
+            <div class="redes__sociais">
+              <a href="#" target="_blank"><img src="./assets/img/whatsapp.png" alt="Logo Whatsapp" title="Whatsapp"></a>
+              <a href="#" target="_blank"><img src="./assets/img/facebook.png" alt="Logo Facebook" title="Facebook"></a> 
+              <a href="#" target="_blank"><img src="./assets/img/instagram.png" alt="Logo Instagram" title="Instagram"></a>        
+            </div>
           </div>
         </div>
       </div>
