@@ -1,3 +1,10 @@
 .receber-email__input{
-    border-style: none;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    font: inherit;
+    color: #f5f5f5;
+    font-weight: bold;
+    background-color: transparent;
+    outline: 4px solid #f5f5f5;
 }

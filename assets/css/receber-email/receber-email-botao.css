@@ -1,0 +1,40 @@
+.receber-email__botao{
+    position: relative;
+    width: 70px;
+    height: 30px;
+    font-size: 10px;
+    background-color: #202232;
+    color: #f5f5f5;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: width .5s, border-radius .5s;
+    margin-left: 15px;
+}
+
+.receber-email__botao *{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: opacity .25s;
+}
+
+.icone{
+    opacity: 0;
+}
+
+.receber-email__botao:focus{
+    width: 30px;
+    background-color: #44c08a;
+    border-radius: 50%;
+}
+
+.receber-email__botao:focus .span{
+    opacity: 0;
+}
+
+.receber-email__botao:focus .icone{
+    opacity: 1;
+    transition-delay: .3s;
+}

@@ -1,5 +1,6 @@
 .contato__telefone {
-  position: absolute;
-  font-size: 40px;
+  padding-bottom: 25px;
+  font-size: 30px;
   color: #f5f5f5;
+  text-align: center;
 }

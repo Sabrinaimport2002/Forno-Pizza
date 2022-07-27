@@ -1,0 +1,34 @@
+.cardapio__veja-mais{
+    display:inline-block;
+    min-width: 100px;
+    padding: 15px 10px;
+    background-color: transparent;
+    font-weight: 600;
+    color: #f5f5f5;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: none;
+    cursor: pointer;
+    transition: background-color .25s, padding-right .25s;
+}
+
+.cardapio__veja-mais:hover{
+    background-color: #d6010c;
+    padding-right: 35px;
+}
+
+.cardapio__veja-mais::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translate(-17px, -50%);
+    display: inline-block;
+    font-weight: 100;
+    transition: transform .25s, opacity .25s;
+}
+
+.cardapio__veja-mais:hover::after{
+    transform: translate(5px, -50%);
+    opacity: 1;
+}
+

@@ -12,6 +12,9 @@
       href="https://fonts.googleapis.com/css2?family=Jacques+Francois&display=swap"
       rel="stylesheet"
     />
+    <script src="https://kit.fontawesome.com/c2569fa1c9.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="./assets/css/container.css" />
     <link rel="stylesheet" href="./assets/css/background.css" />
@@ -55,6 +58,7 @@
     <link rel="stylesheet" href="./assets/css/receber-email/receber-email-titulo.css">
     <link rel="stylesheet" href="./assets/css/receber-email/receber-email-input.css">
     <link rel="stylesheet" href="./assets/css/receber-email/receber-email-botao.css">
+    <link rel="stylesheet" href="./assets/css/cardapio/cardapio-veja-mais.css">
     <link
       rel="stylesheet"
       href="./assets/css/localizacao/localizacao-titulo.css"
@@ -100,8 +104,22 @@
     </div>
     <section class="cardapio" id="pizzas">
       <h1 class="cardapio__titulo">As melhores pizzas</h1>
+      <button class="cardapio__veja-mais">Veja mais</button>
 
       <div class="pizzas">
+        <article class="pizza">
+          <img src="./assets/img/pizza.jpg" alt="" class="pizza__imagem">
+          <div class="detalhes">
+            <h4 class="detalhes__titulo">Pizza</h4>
+            <p class="detalhes__descricao">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </p>
+            <button class="detalhes__botao">
+              <img src="./assets/img/carrinho.png" alt="" class="detalhes__botao__imagem">
+            </button>
+          </div>
+        </article>
+
         <article class="pizza">
           <img src="./assets/img/pizza.jpg" alt="" class="pizza__imagem">
           <div class="detalhes">
@@ -239,8 +257,11 @@
 
             <div class="receber-email">
               <h3 class="receber-email__titulo">Gostaria de receber nossas promoções?</h3>
-              <input type="email" class="receber-email__input" placeholder="Digite seu e-mail">
-              <button class="receber-email__botao">Enviar</button>
+              <input type="text" id="email" class="receber-email__input" placeholder="Digite seu e-mail">
+              <button class="receber-email__botao">
+                <span class="span">Enviar</span>
+                <i class="material-symbols-outlined icone">done</i>
+              </button>
             </div>
           </div>
         </div>
